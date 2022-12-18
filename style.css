@@ -128,7 +128,7 @@ header{
 .services-container{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     position: relative;
 }
 .services-container h2{
@@ -140,7 +140,7 @@ footer{
     align-items: center;
     text-align: center;
     gap: .1rem;
-    padding-top: 2rem;
+    padding-top: 2.7rem;
     padding-bottom: 1rem;
 }
 footer h3{
