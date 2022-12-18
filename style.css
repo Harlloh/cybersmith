@@ -166,21 +166,23 @@ hr{
 .contact-page #contact{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.7rem;
     align-items: center;
 }
 .contact-page #contact ul{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 1.4rem;
     list-style: none;
 }
 .contact-page #contact ul a{
     text-decoration: none;
+    font-size: 1.2rem;
 }
-.contact-page #contact ul a:hover{
+.socials i{
+    font-size: 1.3rem;
+}
 
-}
 .cancels{
     background: none;
     font-size: 1.5rem;
@@ -200,6 +202,7 @@ hr{
         justify-content: center;
         align-items: center;
     }
+    
     .container{
         width: 95%;
         margin: 0 auto;
@@ -243,5 +246,8 @@ hr{
     }
     .hero{
         margin-top: 3rem;
+    }
+    header .container h1{
+        font-size: 1.5rem;
     }
 }
